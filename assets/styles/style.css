@@ -78,7 +78,6 @@ h1 {
   font-size: 36px;
   color: var(--color-light);
   text-transform: uppercase;
-  letter-spacing: 3%;
   font-weight: 400;
   letter-spacing: 1px;
 }
@@ -650,6 +649,7 @@ input[type="email"]::placeholder {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     z-index: -1;
     transition: transform 0.5s ease-in-out;
+    flex-direction: column;
   }
   .header__nav.active .header__nav-list {
     display: flex;
