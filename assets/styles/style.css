@@ -706,18 +706,17 @@ input[type="email"]::placeholder {
     height: 25px;
     margin-left: 1em;
   }
-  .description__image {
-    margin: 0px 1em;
-  }
   .description__images-adaptive img {
     width: 20em;
     height: 25em;
     object-fit: cover;
     border-radius: 50px;
   }
+  .description__image,
   .description__images-adaptive {
-    margin: 0 1em;
-  }
+    border-radius: 35px;
+    margin: 1em 1em;
+}
   .description-block .btn {
     height: 55px;
   }
