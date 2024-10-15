@@ -818,7 +818,7 @@ input[type="email"]::placeholder {
     width: 100%;
     background: var(--color-light);
     border-radius: 10px;
-    margin: 3.2em 10px;
+    margin: 3.2em 1em;
   }
   .form-container {
     position: relative;
@@ -832,6 +832,7 @@ input[type="email"]::placeholder {
   }
   #submit-form {
     height: 65px;
+    font-size: calc(20px + 0.090625vw);
   }
   .form-container-wrapper::before {
     display: none;
