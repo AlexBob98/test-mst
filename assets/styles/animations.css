@@ -45,27 +45,3 @@
     transition: transform 0.5s ease;
 }
 
-.review-card {
-    flex: 0 0 33.33%; /* Показываем три карточки одновременно */
-    box-sizing: border-box;
-    padding: 10px;
-}
-
-.arrow-button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transform: translateY(100%);
-}
-
-.arrow-button svg {
-    width: 24px;
-    height: 24px;
-    fill: none;
-    stroke: #fff;
-    stroke-width: 2;
-}
