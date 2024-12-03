@@ -37,7 +37,7 @@
 
 .reviews-wrapper {
     overflow: hidden;
-    width: 80%; /* Ширина контейнера, в котором будут видны отзывы */
+    width: 80%;
 }
 
 .reviews-section {
@@ -52,7 +52,7 @@
 }
 
 .arrow-button {
-
+    background: none;
     border: none;
     cursor: pointer;
     padding: 10px;
