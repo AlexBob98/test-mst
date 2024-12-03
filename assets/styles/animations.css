@@ -1,0 +1,71 @@
+.underline-hover {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.underline-hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 0;
+    height: 0.5px;
+    background-color: var(--color-light);
+    transition: width 0.3s ease;
+
+}
+
+.underline-hover:hover::after {
+    width: 100%;
+}
+
+@keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-10px);
+    }
+  }
+
+  .slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews-wrapper {
+    overflow: hidden;
+    width: 80%; /* Ширина контейнера, в котором будут видны отзывы */
+}
+
+.reviews-section {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.review-card {
+    flex: 0 0 33.33%; /* Показываем три карточки одновременно */
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.arrow-button {
+
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(100%);
+}
+
+.arrow-button svg {
+    width: 24px;
+    height: 24px;
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2;
+}
